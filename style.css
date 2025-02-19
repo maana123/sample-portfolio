@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.option{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none   ;
+    text-transform: uppercase;
+    color: white;
+}
+.home{
+    margin-left: 50px;
+}
+.about{
+    margin-left: 50px;
+}
+.services{
+    margin-left: 50px;
+}
+.contact{
+    margin-left: 50px;
+}
+.profile{
+    height: 500px;
+    width: 100%;
+    padding: 50px;
+    border-radius: 20%;
+}
+.box{
+    width: 40%;
+    display: inline-block;
+    margin: 50px;
+}
+.box1{
+    float: left;
+}
+.box2{
+    float: right;
+    padding: 20px;
+}
+
+p,h3{
+    font-size: 2rem;
+}
+span{
+    color: cyan;
+}
+h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+.text{
+    text-align:justify
+    }
+@media (max-width:600px){
+    .option{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .home{
+        margin-left: 20px;
+    }
+    .about{
+        margin-left: 20px;
+    }
+    .services{
+        margin-left: 20px;
+    }
+    .contact{
+        margin-left: 20px;
+    }
+    .profile{
+        height: 500px;
+        width: 100%;
+        padding: 30px;
+        border-radius: 20%;
+    }
+    .box{
+        width: 100%;
+        display: block;
+        margin: 10px;
+    }
+    .box2{
+        padding: 40px;
+    }
+    p,h3{
+        font-size: 20px;
+    }
+    h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    }
+}
